@@ -1,0 +1,97 @@
+.head{
+    color: orangered;
+    font-size: 7rem;
+}
+
+.food1{
+    background: linear-gradient(rgba(0, 0, 0, 0.4)50%,rgba(0, 0, 0, 0.4)50%), url(../../assets/rice1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border-top-left-radius: 50px;
+}
+.food2{
+    background: linear-gradient(rgba(0, 0, 0, 0.4)50%,rgba(0, 0, 0, 0.4)50%), url(../../assets/rice3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border-bottom-left-radius: 50px;
+}
+.food3{
+    background: linear-gradient(rgba(0, 0, 0, 0.4)50%,rgba(0, 0, 0, 0.4)50%), url(../../assets/spaghetti1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border-radius: 20px;
+}
+.food4{
+    background: linear-gradient(rgba(0, 0, 0, 0.4)50%,rgba(0, 0, 0, 0.4)50%), url(../../assets/spaghetti2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.p-text{
+    font-size: 2rem;
+    text-align: right;
+}
+
+.resturants{
+    float: right;
+    padding: 10px;
+    border: 1px solid orangered;
+    background: transparent;
+}
+
+.resturants:hover{
+    background-color: orangered;
+    border-radius: 10px;
+    color: white;
+}
+
+.number{
+    color: orangered;
+    margin-top: 3rem;
+}
+
+.online{
+    padding: 10px;
+    border: 1px solid orangered;
+    background: transparent;
+}
+
+.online:hover{
+    background-color: orangered;
+    border-radius: 10px;
+    color: white;
+}
+
+.order-text{
+    font-size: 1.3rem;
+}
+
+.item7{
+    width: 15%;
+}
