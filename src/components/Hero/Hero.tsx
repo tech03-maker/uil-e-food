@@ -17,13 +17,13 @@ const Hero = () => {
 
 
                 <div className="row mt-3">
-                    <div className="col-sm-12 col-md-6 col-lg-6">
+                    <div className="col-sm-12 col-md-12 col-lg-6">
                         <div className="row">
                             <div className="col-sm-12 col-md-6 col-lg-6">
                                 <div className="food1">
                                     <p>Food1</p>
                                 </div>
-                                <div className="food4 mt-3">
+                                <div className="food4 mt-3 mb-3">
                                     <p>Food4</p>
                                 </div>
                             </div>
@@ -32,27 +32,27 @@ const Hero = () => {
                                     <p>Food2</p>
                                 </div>
                                 <div className="food3 mt-3">
-                                    <p>Food2</p>
+                                    <p>Food3</p>
                                 </div>
                             </div>
                         </div>
 
 
                     </div>
-                    <div className="col-sm-12 col-md-6 col-lg-6">
+                    <div className="col-sm-12 col-md-12 col-lg-6">
                         <p className='p-text text-right'>Delicious Produced & Delivered Directly To Your Door</p>
                         <button type='button' className="resturants">Resturants <FontAwesomeIcon icon={faCircleRight} /></button>
 
-                        <div className="row mt-5">
-                            <div className="col-sm-12 col-md-4 col-lg-4 text-center">
+                        <div className="mother d-flex mt-5">
+                            <div className="num-rating col-sm-4 col-md-4 col-lg-4 text-center">
                                 <h1 className='number fw-bold'>5+</h1>
                                 <span>Experience</span>
                             </div>
-                            <div className="col-sm-12 col-md-4 col-lg-4 text-center">
+                            <div className="num-rating col-sm-4 col-md-4 col-lg-4 text-center">
                                 <h1 className='number fw-bold'>1K+</h1>
                                 <span>Best Clients</span>
                             </div>
-                            <div className="col-sm-12 col-md-4 col-lg-4 text-center">
+                            <div className="num-rating col-sm-4 col-md-4 col-lg-4 text-center">
                                 <h1 className='number fw-bold'>4.99</h1>
                                 <span>Reviews</span>
                             </div>
@@ -65,7 +65,6 @@ const Hero = () => {
                                 <img className='item7' src={item7logo} alt="" />
                                 <img className='item7' src={logo} alt="" />
                                 <img className='item7' src={nutric} alt="" />
-                                <img className='item7' src={item7logo} alt="" />
                             </div>
                         </div>
                     </div>

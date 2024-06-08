@@ -8,6 +8,10 @@
     width: 20%;
 }
 
+span{
+    color: orangered;
+}
+
 .btn-nav{
     border: 1px solid orangered;
     padding: 10px;

@@ -95,3 +95,29 @@
 .item7{
     width: 15%;
 }
+
+@media screen and (max-width: 768px){
+    .head{
+        font-size: 2rem;
+    }
+
+    .p-text{
+        font-size: 1rem;
+    }
+
+    .mother{
+        text-align: center;
+    }
+
+    .num-rating .number{
+        font-size: 2rem;
+        text-align: center;
+        justify-content: space-around;
+        margin-left: 2rem;
+    }
+
+    .num-rating span{
+        font-size: 10px;
+        margin-left: 1rem;
+    }
+}

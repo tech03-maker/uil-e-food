@@ -6,17 +6,14 @@ import logo from '../../assets/logo.png'
 const Navbar = () => {
   return (
     <div>
-        <nav className="navbar">
-  <div className="container">
-    <a className="navbar-brand">
-        <img className='logo' src={logo} alt="" />
-    </a>
-    <form className="d-flex" role="search">
-      <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-      <button className="btn-nav" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+      <nav className="navbar bg-body-tertiary">
+        <div className="container">
+          <a className="navbar-brand fw-bold" href="#">
+            <img className='logo' src={logo} alt="" />
+            <span>GOOD</span>FOOD
+          </a>
+        </div>
+      </nav>
     </div>
   )
 }
