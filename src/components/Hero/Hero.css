@@ -4,7 +4,7 @@
 }
 
 .food1{
-    background: linear-gradient(rgba(0, 0, 0, 0.4)50%,rgba(0, 0, 0, 0.4)50%), url(../../assets/rice1.jpg);
+    background: linear-gradient(50deg, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../../assets/rice1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,7 +16,7 @@
     border-top-left-radius: 50px;
 }
 .food2{
-    background: linear-gradient(rgba(0, 0, 0, 0.4)50%,rgba(0, 0, 0, 0.4)50%), url(../../assets/rice3.jpg);
+    background: linear-gradient(50deg, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../../assets/rice3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,7 +28,7 @@
     border-bottom-left-radius: 50px;
 }
 .food3{
-    background: linear-gradient(rgba(0, 0, 0, 0.4)50%,rgba(0, 0, 0, 0.4)50%), url(../../assets/spaghetti1.jpg);
+    background: linear-gradient(50deg, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../../assets/spaghetti1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,7 +40,7 @@
     border-radius: 20px;
 }
 .food4{
-    background: linear-gradient(rgba(0, 0, 0, 0.4)50%,rgba(0, 0, 0, 0.4)50%), url(../../assets/spaghetti2.jpg);
+    background: linear-gradient(50deg, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../../assets/spaghetti2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
